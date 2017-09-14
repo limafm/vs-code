@@ -1,0 +1,24 @@
+{
+  "window.zoomLevel": 0,
+  // The number of spaces a tab is equal to. This setting is overriden based on the file contents when `editor.detectIndentation` is on.
+  "editor.tabSize": 2,
+  // Insert new line at the end of the line
+  "files.insertFinalNewline": true,
+  "editor.formatOnSave": false,
+  "workbench.colorTheme": "Cobalt2",
+  "editor.fontFamily": "Operator Mono, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontSize": 15,
+  "editor.lineHeight": 20,
+  "editor.letterSpacing": 0.2,
+  "files.trimTrailingWhitespace": true,
+  "editor.fontWeight": "500",
+  "prettier.eslintIntegration": true,
+  // this isn't really underline-thin but we hack it to be a thicker cursor
+  "editor.cursorStyle": "block-outline",
+  "editor.cursorBlinking": "expand",
+  // Very important: Install this plugin: https://github.com/be5invis/vscode-custom-css
+  "vscode_custom_css.imports": [
+    "https://raw.githubusercontent.com/wesbos/cobalt2-vscode/master/cobalt2-custom-hacks.css"
+  ],
+  "editor.renderWhitespace": "all"
+}
